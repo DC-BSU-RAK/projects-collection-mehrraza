@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.example.colormixapp-debug-31:/layout_activity_splash.xml.flat",
+        "source": "com.example.colormixapp-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/layout_modal_info.xml.flat",
+        "source": "com.example.colormixapp-main-33:/layout/modal_info.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/drawable_swatch_shape.xml.flat",
+        "source": "com.example.colormixapp-main-33:/drawable/swatch_shape.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/layout_slider_row_b.xml.flat",
+        "source": "com.example.colormixapp-main-33:/layout/slider_row_b.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/layout_slider_row_g.xml.flat",
+        "source": "com.example.colormixapp-main-33:/layout/slider_row_g.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.colormixapp-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.colormixapp-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/drawable_splash_background.xml.flat",
+        "source": "com.example.colormixapp-main-33:/drawable/splash_background.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/layout_slider_row.xml.flat",
+        "source": "com.example.colormixapp-main-33:/layout/slider_row.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.colormixapp-debug-31:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.colormixapp-main-33:/mipmap-mdpi/ic_launcher_round.xml"
+    }
+]

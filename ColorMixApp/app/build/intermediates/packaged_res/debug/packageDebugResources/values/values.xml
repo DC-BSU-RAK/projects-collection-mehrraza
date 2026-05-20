@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F5F5F7</color>
+    <color name="purple_light">#EDE8FF</color>
+    <color name="purple_primary">#5856D6</color>
+    <color name="splash_end">#D76D77</color>
+    <color name="splash_start">#3A1C71</color>
+    <color name="text_primary">#1C1C1E</color>
+    <color name="text_secondary">#8E8E93</color>
+    <string name="app_name">Colour Mixer</string>
+    <string name="btn_mix">🎨  MIX!</string>
+    <string name="btn_reset">RESET</string>
+    <string name="label_colour_a">Colour A</string>
+    <string name="label_colour_b">Colour B</string>
+    <string name="label_mix_ready">Mixed Result</string>
+    <string name="label_mix_result">Mixed Result ✓</string>
+    <string name="placeholder_hex">#------</string>
+    <string name="splash_tagline">Blend any two colours together</string>
+    <style name="Theme.ColorMixApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_light</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">@color/splash_end</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="Theme.ColorMixApp.Splash" parent="Theme.ColorMixApp">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

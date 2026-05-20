@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colour Mixer</string>
+    <string name="splash_tagline">Blend any two colours together</string>
+    <string name="label_colour_a">Colour A</string>
+    <string name="label_colour_b">Colour B</string>
+    <string name="btn_mix">🎨  MIX!</string>
+    <string name="btn_reset">RESET</string>
+    <string name="label_mix_ready">Mixed Result</string>
+    <string name="label_mix_result">Mixed Result ✓</string>
+    <string name="placeholder_hex">#------</string>
+</resources>

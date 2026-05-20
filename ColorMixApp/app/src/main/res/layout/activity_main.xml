@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F7"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp">
+
+        <!-- ── Toolbar row ──────────────────────────────────────────────── -->
+        <TextView
+            android:id="@+id/tvToolbarTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1C1C1E"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnInfo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="?"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5856D6"
+            android:padding="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/Widget.MaterialComponents.Button" />
+
+        <!-- ══ COLOUR A CARD ══════════════════════════════════════════════ -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvToolbarTitle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_colour_a"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1C1C1E"
+                    android:layout_marginBottom="10dp" />
+
+                <!-- Swatch -->
+                <View
+                    android:id="@+id/swatchA"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/swatch_shape"
+                    android:layout_marginBottom="4dp" />
+
+                <!-- Hex label -->
+                <TextView
+                    android:id="@+id/tvHexA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder_hex"
+                    android:textSize="13sp"
+                    android:textColor="#8E8E93"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- R Slider -->
+                <include layout="@layout/slider_row"
+                    android:id="@+id/rowAR" />
+
+                <!-- G Slider -->
+                <include layout="@layout/slider_row_g"
+                    android:id="@+id/rowAG" />
+
+                <!-- B Slider -->
+                <include layout="@layout/slider_row_b"
+                    android:id="@+id/rowAB" />
+
+                <!-- SeekBars referenced by MainActivity -->
+                <SeekBar
+                    android:id="@+id/sbAR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:progress="220"
+                    android:progressTint="#FF3B30"
+                    android:thumbTint="#FF3B30"
+                    android:layout_marginBottom="6dp" />
+
+                <SeekBar
+                    android:id="@+id/sbAG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:progress="60"
+                    android:progressTint="#34C759"
+                    android:thumbTint="#34C759"
+                    android:layout_marginBottom="6dp" />
+
+                <SeekBar
+                    android:id="@+id/sbAB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:progress="40"
+                    android:progressTint="#007AFF"
+                    android:thumbTint="#007AFF" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- ══ COLOUR B CARD ══════════════════════════════════════════════ -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardA">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_colour_b"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1C1C1E"
+                    android:layout_marginBottom="10dp" />
+
+                <!-- Swatch -->
+                <View
+                    android:id="@+id/swatchB"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/swatch_shape"
+                    android:layout_marginBottom="4dp" />
+
+                <!-- Hex label -->
+                <TextView
+                    android:id="@+id/tvHexB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder_hex"
+                    android:textSize="13sp"
+                    android:textColor="#8E8E93"
+                    android:layout_marginBottom="12dp" />
+
+                <SeekBar
+                    android:id="@+id/sbBR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:progress="40"
+                    android:progressTint="#FF3B30"
+                    android:thumbTint="#FF3B30"
+                    android:layout_marginBottom="6dp" />
+
+                <SeekBar
+                    android:id="@+id/sbBG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:progress="80"
+                    android:progressTint="#34C759"
+                    android:thumbTint="#34C759"
+                    android:layout_marginBottom="6dp" />
+
+                <SeekBar
+                    android:id="@+id/sbBB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:progress="220"
+                    android:progressTint="#007AFF"
+                    android:thumbTint="#007AFF" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- ══ MIX BUTTON ═════════════════════════════════════════════════ -->
+        <Button
+            android:id="@+id/btnMix"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/btn_mix"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5856D6"
+            app:layout_constraintEnd_toStartOf="@id/btnReset"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardB"
+            android:layout_marginEnd="8dp"
+            style="@style/Widget.MaterialComponents.Button" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/btn_reset"
+            android:textSize="16sp"
+            android:textColor="#5856D6"
+            android:backgroundTint="#EDE8FF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardB"
+            style="@style/Widget.MaterialComponents.Button" />
+
+        <!-- ══ RESULT CARD ════════════════════════════════════════════════ -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardResult"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnMix">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvMixLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_mix_ready"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1C1C1E"
+                    android:layout_marginBottom="10dp" />
+
+                <View
+                    android:id="@+id/swatchResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/swatch_shape" />
+
+                <TextView
+                    android:id="@+id/tvHexResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder_hex"
+                    android:textSize="15sp"
+                    android:textColor="#5856D6"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
