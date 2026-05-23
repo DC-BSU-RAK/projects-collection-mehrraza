@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.example.gymapp-merged_res-44:/layout_dialog_workout_detail.xml.flat",
+        "source": "com.example.gymapp-main-46:/layout/dialog_workout_detail.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.gymapp-main-46:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.gymapp-main-46:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/layout_activity_splash.xml.flat",
+        "source": "com.example.gymapp-main-46:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "com.example.gymapp-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/color_nav_item_color.xml.flat",
+        "source": "com.example.gymapp-main-46:/color/nav_item_color.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/layout_dialog_info.xml.flat",
+        "source": "com.example.gymapp-main-46:/layout/dialog_info.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/layout_fragment_progress.xml.flat",
+        "source": "com.example.gymapp-main-46:/layout/fragment_progress.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/layout_fragment_workouts.xml.flat",
+        "source": "com.example.gymapp-main-46:/layout/fragment_workouts.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/layout_fragment_settings.xml.flat",
+        "source": "com.example.gymapp-main-46:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.gymapp-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.gymapp-main-46:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/layout_fragment_home.xml.flat",
+        "source": "com.example.gymapp-main-46:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.gymapp-merged_res-44:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.gymapp-main-46:/mipmap-mdpi/ic_launcher_round.xml"
+    }
+]

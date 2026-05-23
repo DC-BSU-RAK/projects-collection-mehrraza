@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/surface_dark"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💪  About GymForge"
+        android:textColor="@color/accent_orange"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to GymForge — your personal training companion!"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+        android:text="GymForge helps you build and track your fitness journey with four core sections:\n\n🏠  Home — Your daily dashboard with quick-start workouts and today's stats.\n\n🏋️  Workouts — Browse all available workout plans and tap any to see the full routine.\n\n📈  Progress — Log completed sessions, track your weight, and measure how close you are to your goal.\n\n⚙️  Settings — Personalise the app by setting your name, fitness level, weekly workout goal, and preferred weight unit. All preferences are saved automatically.\n\nHow to use:\n1. Tap a workout card to view the full routine.\n2. After completing a session, head to Progress and tap 'Log Workout'.\n3. Set your preferences in Settings to tailor the experience."
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_close_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Got it!"
+        app:backgroundTint="@color/accent_orange"
+        android:textColor="@color/bg_dark"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"/>
+
+</LinearLayout>

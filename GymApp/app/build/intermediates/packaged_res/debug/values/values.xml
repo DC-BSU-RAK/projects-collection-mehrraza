@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#FF2196F3</color>
+    <color name="accent_green">#FF4CAF50</color>
+    <color name="accent_orange">#FFFF6B00</color>
+    <color name="accent_red">#FFF44336</color>
+    <color name="bg_dark">#FF121212</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    <color name="surface_variant">#FF2C2C2C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FF9E9E9E</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">GymForge</string>
+    <style name="Theme.GymApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/accent_orange</item>
+        <item name="colorPrimaryVariant">@color/surface_dark</item>
+        <item name="colorOnPrimary">@color/bg_dark</item>
+        <item name="colorSecondary">@color/accent_green</item>
+        <item name="colorOnSecondary">@color/bg_dark</item>
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/surface_dark</item>
+    </style>
+    <style name="Theme.GymApp.Splash" parent="Theme.GymApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

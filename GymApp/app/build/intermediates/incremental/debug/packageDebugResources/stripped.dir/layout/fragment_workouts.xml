@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Workouts"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap any plan to view the full routine"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Workout card helper: each has emoji + name + detail -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_w1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/surface_dark"
+            app:cardCornerRadius="14dp"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="horizontal" android:gravity="center_vertical" android:padding="14dp">
+                <TextView android:layout_width="44dp" android:layout_height="44dp" android:text="💪" android:textSize="28sp" android:gravity="center"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Upper Body Power" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chest · Shoulders · Triceps" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/accent_orange" android:textSize="22sp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_w2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/surface_dark"
+            app:cardCornerRadius="14dp"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="horizontal" android:gravity="center_vertical" android:padding="14dp">
+                <TextView android:layout_width="44dp" android:layout_height="44dp" android:text="🦵" android:textSize="28sp" android:gravity="center"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lower Body Strength" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quads · Hamstrings · Glutes" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/accent_orange" android:textSize="22sp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_w3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/surface_dark"
+            app:cardCornerRadius="14dp"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="horizontal" android:gravity="center_vertical" android:padding="14dp">
+                <TextView android:layout_width="44dp" android:layout_height="44dp" android:text="🔥" android:textSize="28sp" android:gravity="center"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Full Body HIIT" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Burn fat · Build endurance" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/accent_orange" android:textSize="22sp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_w4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/surface_dark"
+            app:cardCornerRadius="14dp"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="horizontal" android:gravity="center_vertical" android:padding="14dp">
+                <TextView android:layout_width="44dp" android:layout_height="44dp" android:text="🎯" android:textSize="28sp" android:gravity="center"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Core &amp; Abs" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stability · Definition · Strength" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/accent_orange" android:textSize="22sp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_w5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/surface_dark"
+            app:cardCornerRadius="14dp"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="horizontal" android:gravity="center_vertical" android:padding="14dp">
+                <TextView android:layout_width="44dp" android:layout_height="44dp" android:text="🦾" android:textSize="28sp" android:gravity="center"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back &amp; Biceps" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pull day · Rows · Curls" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/accent_orange" android:textSize="22sp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_w6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/surface_dark"
+            app:cardCornerRadius="14dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="horizontal" android:gravity="center_vertical" android:padding="14dp">
+                <TextView android:layout_width="44dp" android:layout_height="44dp" android:text="🤜" android:textSize="28sp" android:gravity="center"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chest &amp; Triceps" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Push day · Press · Extensions" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/accent_orange" android:textSize="22sp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.gymapp.HomeFragment"
+        android:label="Home"
+        android:icon="@android:drawable/ic_menu_today"/>
+
+    <fragment
+        android:id="@+id/navigation_workouts"
+        android:name="com.example.gymapp.WorkoutsFragment"
+        android:label="Workouts"
+        android:icon="@android:drawable/ic_menu_manage"/>
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.example.gymapp.ProgressFragment"
+        android:label="Progress"
+        android:icon="@android:drawable/ic_menu_sort_by_size"/>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.gymapp.SettingsFragment"
+        android:label="Settings"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+
+</navigation>
